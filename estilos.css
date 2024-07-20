@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(216, 213, 213);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+/*Ejemplo estructura*/
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+.menu{
+    padding: 1rem;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0.5 rem;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu ul li a:hover{
+    color: #ffd700;
+}
+.personajes{
+    padding: 1rem ;
+}
+.items{
+    font-weight: 600;
+    color: #800000;
+    line-height: 2rem;
+}
+.items:hover{
+    color: #ff4500;
+}
+.contenedor_personajes{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: aliceblue;
+}
+.box_img{
+    /*background-color: #ff4500;*/
+    width: 60%;
+}
+.box_img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
